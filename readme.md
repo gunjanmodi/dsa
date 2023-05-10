@@ -1,30 +1,23 @@
-# Data Structures and Algorithms Solutions
+# DS & Algorithms Solutions
 
-Welcome to my Git repository of data structures and algorithms solutions! Here, you will find well-tested implementations of common algorithms, all developed using the Test Driven Development (TDD) approach. Each solution includes a set of tests to verify its correctness and ensure that it meets the specified requirements.
+Welcome to my "DS & Algorithms Solutions" repository! This repository is a collection of my solutions to various problems related to data structures and algorithms.
 
-## Why TDD?
+## Purpose
 
-By following the TDD methodology, I have strived to write clean and maintainable code that is easy to understand and modify. TDD is a software development practice that involves writing tests before writing code. This approach has several benefits, including:
+The primary purpose of this repository is to serve as a personal reference and revision resource for me. However, I also created it with the intention of sharing my solutions with the community and providing a resource for other developers and programmers who are interested in improving their understanding of these concepts.
 
-- Ensuring that the code meets the requirements and is of high quality
-- Facilitating code maintenance and modifications
-- Reducing the likelihood of bugs and defects
-- Increasing productivity and efficiency
+## Contents
 
-## How to use this repository
+The solutions in this repository are written in a variety of programming languages, including Python and Java. The problems cover a wide range of topics, including sliding window, two pointers, sorting and searching algorithms, linked lists, trees, graphs, heaps, DFS, BFS, divide & conquer and more. The repository is constantly updated with new solutions and improvements.
 
-This repository serves as a valuable resource for anyone interested in learning or practicing data structures and algorithms. You can browse through the different folders to find solutions to specific problems, or search for a particular algorithm or data structure.
+## Contributing
 
-To run the tests for a particular solution, navigate to the solution's folder and run the following command:
-
-```
-python -m unittest discover -s tests
-```
-
-## Contribution
-
-I welcome contributions to this repository in the form of additional solutions or improvements to existing ones. To contribute, simply fork this repository, make your changes, and submit a pull request.
+Contributions to this repository are always welcome! If you would like to submit your own solutions or improvements to existing solutions, please feel free to open a pull request.
 
 ## License
 
-This repository is licensed under the MIT License. See the LICENSE file for more information.
+All code in this repository is licensed under the MIT License. See the LICENSE file for more information.
+
+## Acknowledgments
+
+I would like to thank the community of developers and programmers who have inspired and helped me to create this repository.
