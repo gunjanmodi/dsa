@@ -14,18 +14,17 @@ class Solution:
         Time Complexity: O(n)
         Space Complexity: O(n)
     """
-
-    def totalFruit(self, fruits: List[int]) -> int:  # noqa
-        basket = dict()
+    def totalFruit(self, fruits: List[int]) -> int: # noqa
+        d = dict()
         answer = 0
         i = 0
         for j in range(len(fruits)):
-            basket[fruits[j]] = basket.get(fruits[j], 0) + 1
+            d[fruits[j]] = d.get(fruits[j], 0) + 1
 
-            if len(basket) > 2:
-                basket[fruits[i]] -= 1
-                if basket[fruits[i]] == 0:
-                    del basket[fruits[i]]
+            if len(d) > 2:
+                d[fruits[i]] -= 1
+                if d[fruits[i]] == 0:
+                    del d[fruits[i]]
                 i += 1
             answer = max(answer, j - i + 1)
         return answer

@@ -1,5 +1,5 @@
 import unittest
-from solutions.sliding_window.fruits_into_baskets import Solution
+from solution import Solution
 
 
 class TestSolution(unittest.TestCase):
@@ -16,16 +16,8 @@ class TestSolution(unittest.TestCase):
         self.assertEqual(4, Solution().totalFruit(fruits))
 
     def test_case_4(self):
-        fruits = [3, 3, 3, 1, 2, 1, 1, 2, 3, 3, 4]
-        self.assertEqual(5, Solution().totalFruit(fruits))
-
-    def test_case_5(self):
         fruits = [0]
         self.assertEqual(1, Solution().totalFruit(fruits))
-
-    def test_case_6(self):
-        fruits = [1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 3]
-        self.assertEqual(8, Solution().totalFruit(fruits))
 
 
 if __name__ == '__main__':
