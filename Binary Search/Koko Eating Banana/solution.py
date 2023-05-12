@@ -34,8 +34,8 @@ class Solution:
             mid = left + (right - left) // 2
 
             if can_eat_in_time(mid):
-                right = mid
+                right = mid  # This is one of the solution. Find the optimal solution
             else:
-                left = mid + 1
+                left = mid + 1  # This speed is not enough for koko to eat all banana in given time, h
 
         return left
