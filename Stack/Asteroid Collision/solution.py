@@ -2,7 +2,7 @@ from typing import List
 
 
 class Solution:
-    def asteroidCollision(self, asteroids: List[int]) -> List[int]:
+    def asteroidCollision(self, asteroids: List[int]) -> List[int]: # noqa
         stack = []
         for i in range(len(asteroids)):
             asteroid = asteroids[i]
